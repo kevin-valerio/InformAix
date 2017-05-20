@@ -1,2 +1,5 @@
 # Inform-Aix
-Inform'Aix website
+
+Code source complet d'Inform'Aix
+
+#Kevin VALERIO
