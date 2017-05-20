@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 	$id_article = $_GET['id_article'] ; 
  	include("include/bdd.php") ; 
  	if(isset($_POST['supprimer_article']))

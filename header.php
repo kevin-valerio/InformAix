@@ -1,6 +1,7 @@
 <?php 
    session_start();
 ?>
+    <meta charset="UTF-8">
 
 <?php
 	if(isset($_GET['m']) && $_GET['m'] == '1'){
@@ -41,7 +42,7 @@
 
 
 
-<a class="toggle-nav" style="font-size:100px" href="#">≡</a>
+<a class="toggle-nav" style="font-size:100px" href="#">â‰¡</a>
 <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js'></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script> 
@@ -82,11 +83,26 @@
 				   $pageName = basename($_SERVER['PHP_SELF']);
 				   if($pageName == "planning.php"){ 
 				   ?>		
-				<b>Planning</b>
+				<b>Planning global</b>
 				<?php } else {?>
-				Planning <?php } ?>
+				Planning global <?php } ?>
 				</span></a>
 			 </li>
+
+
+ 			 <li><a href="planning-defaut.php"><span class="hvr-underline-from-left">
+				<?php 
+				   $pageName = basename($_SERVER['PHP_SELF']);
+				   if($pageName == "planning-defaut.php"){ 
+				   ?>		
+				<b>Mon planning</b>
+				<?php } else {?>
+				Mon planning <?php } ?>
+				</span></a>
+			 </li>
+
+
+			 
 			 <li><a href="minichat/chat.php"><span class="hvr-underline-from-left">
 				<?php 
 				   $pageName = basename($_SERVER['PHP_SELF']);
@@ -106,9 +122,9 @@
 				   $pageName = basename($_SERVER['PHP_SELF']);
 				   if($pageName == "projet.php"){ 
 				   ?>		
-				<b>Média</b>
+				<b>MÃ©dia</b>
 				<?php } else {?>
-				Média <?php } ?>
+				MÃ©dia <?php } ?>
 				</span></a>
 			 </li>
 			  <li><a href="battles.php"><span></span>
