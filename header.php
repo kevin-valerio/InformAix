@@ -89,15 +89,44 @@
 				</span></a>
 			 </li>
 
+			 <div id="new-planning" style="font-size: 14px;">
+				 <span>New !</span>
+			 </div>		
+ 			 <li><a href="planning-defaut.php">
+				  
 
- 			 <li><a href="planning-defaut.php"><span class="hvr-underline-from-left">
+			  	<?php
+
+						if(isset($_GET['m']) && $_GET['m'] == '1'){
+
+					 
+			     ?>
+
+				<span class="hvr-underline-from-left" id="new-mobile">
+				Nouveau : 				
+				</span>
+
+
+				  <?php
+						}
+				  ?>
+				  
+				  
+				  <span class="hvr-underline-from-left">
 				<?php 
 				   $pageName = basename($_SERVER['PHP_SELF']);
 				   if($pageName == "planning-defaut.php"){ 
 				   ?>		
+
+
 				<b>Mon planning</b>
+
+
 				<?php } else {?>
-				Mon planning <?php } ?>
+
+				Mon planning
+				
+				 <?php } ?>
 				</span></a>
 			 </li>
 
