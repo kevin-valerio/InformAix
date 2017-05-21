@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html  xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
 <?php
 include ("include/bdd.php");
@@ -121,7 +121,7 @@ if (isset($_GET['m']) && $_GET['m'] == '1')
               </div>
               <div class="coming_soon">
                 <fieldset>
-                  <legend align="center">A? venir !</legend>
+                  <legend align="center">A venir !</legend>
                   <?php
 include ("include/bdd.php");
 
@@ -156,8 +156,8 @@ while ($donnees = $reponse->fetch())
 ?>
                 </fieldset>
                 <fieldset>
-                  <legend style="font-size:20px;" vertical-align="center" align="center">RAcseaux Sociaux</legend>
-                  <p><strong>Inform'Aix</strong> est aussi sur les rAcseaux sociaux ! Rejoins nous !</p>
+                  <legend style="font-size:20px;" vertical-align="center" align="center">Réseaux sociaux</legend>
+                  <p><strong>Inform'Aix</strong> est aussi sur les réseaux sociaux ! Rejoins nous !</p>
                   <a href="https://www.facebook.com/Inform'Aix/?fref=ts">
                     <img id="social" src="img/fb.png" />
                   </a>
