@@ -42,7 +42,7 @@
 
 
 
-<a class="toggle-nav" style="font-size:100px" href="#">â‰¡</a>
+<a class="toggle-nav" style="font-size:100px" href="#">≡</a>
 <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js'></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script> 
@@ -122,9 +122,9 @@
 				   $pageName = basename($_SERVER['PHP_SELF']);
 				   if($pageName == "projet.php"){ 
 				   ?>		
-				<b>MÃ©dia</b>
+				<b>Média</b>
 				<?php } else {?>
-				MÃ©dia <?php } ?>
+				Média <?php } ?>
 				</span></a>
 			 </li>
 			  <li><a href="battles.php"><span></span>
