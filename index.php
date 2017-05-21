@@ -97,7 +97,7 @@ if (!(isset($_COOKIE['annee'])))
 ?>
         <script>
 
-        var myYear =  prompt("Veuillez entrer votre ann�e d\'�tude (exemple : 1)  ");            
+        var myYear =  prompt("Veuillez entrer votre année d\'étude (exemple : 1)  ");            
         document.cookie = "annee=" + myYear + "; expires=Thu, 18 Dec 2048 12:00:00 UTC; path=/";
 
         </script>
